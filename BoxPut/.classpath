@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <classpath>
-	<classpathentry output="bin/main" kind="src" path="src/main/java">
+	<classpathentry kind="src" output="bin/main" path="src/main/java">
 		<attributes>
 			<attribute name="gradle_scope" value="main"/>
 			<attribute name="gradle_used_by_scope" value="main,test"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry output="bin/test" kind="src" path="src/test/java">
+	<classpathentry kind="src" output="bin/test" path="src/test/java">
 		<attributes>
 			<attribute name="test" value="true"/>
 			<attribute name="gradle_scope" value="test"/>
@@ -14,83 +14,87 @@
 		</attributes>
 	</classpathentry>
 	<classpathentry kind="con" path="org.eclipse.buildship.core.gradleclasspathcontainer"/>
-	<classpathentry kind="output" path="bin/default"/>
-	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-19/"/>
-	<classpathentry sourcepath="C:/Users/mra12/.gradle/caches/modules-2/files-2.1/de.gurkenlabs/litiengine/0.5.2/3e7eae85e3b320ad336ee9efa0bd750c0b5807d3/litiengine-0.5.2-sources.jar" kind="lib" path="C:/Users/mra12/.gradle/caches/modules-2/files-2.1/de.gurkenlabs/litiengine/0.5.2/4eda89ade03a6ac5e6a77ea0262ee94862fdef1a/litiengine-0.5.2.jar">
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/jdk-19">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/mra12/.gradle/caches/modules-2/files-2.1/de.gurkenlabs/litiengine/0.5.2/4eda89ade03a6ac5e6a77ea0262ee94862fdef1a/litiengine-0.5.2.jar" sourcepath="C:/Users/mra12/.gradle/caches/modules-2/files-2.1/de.gurkenlabs/litiengine/0.5.2/3e7eae85e3b320ad336ee9efa0bd750c0b5807d3/litiengine-0.5.2-sources.jar">
 		<attributes>
 			<attribute name="gradle_used_by_scope" value="main,test"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry sourcepath="C:/Users/mra12/.gradle/caches/modules-2/files-2.1/jakarta.xml.bind/jakarta.xml.bind-api/3.0.1/571809ee9b4a6d9de6a2991e8c4c9bbc7d1f7418/jakarta.xml.bind-api-3.0.1-sources.jar" kind="lib" path="C:/Users/mra12/.gradle/caches/modules-2/files-2.1/jakarta.xml.bind/jakarta.xml.bind-api/3.0.1/5257932df36ff3e4e6de50429dde946490a6a800/jakarta.xml.bind-api-3.0.1.jar">
+	<classpathentry kind="lib" path="C:/Users/mra12/.gradle/caches/modules-2/files-2.1/jakarta.xml.bind/jakarta.xml.bind-api/3.0.1/5257932df36ff3e4e6de50429dde946490a6a800/jakarta.xml.bind-api-3.0.1.jar" sourcepath="C:/Users/mra12/.gradle/caches/modules-2/files-2.1/jakarta.xml.bind/jakarta.xml.bind-api/3.0.1/571809ee9b4a6d9de6a2991e8c4c9bbc7d1f7418/jakarta.xml.bind-api-3.0.1-sources.jar">
 		<attributes>
 			<attribute name="gradle_used_by_scope" value="main,test"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry sourcepath="C:/Users/mra12/.gradle/caches/modules-2/files-2.1/com.sun.activation/jakarta.activation/2.0.1/5204fb651a74c03463d3e587f37c92c3506272e7/jakarta.activation-2.0.1-sources.jar" kind="lib" path="C:/Users/mra12/.gradle/caches/modules-2/files-2.1/com.sun.activation/jakarta.activation/2.0.1/828b80e886a52bb09fe41ff410b10b342f533ce1/jakarta.activation-2.0.1.jar">
+	<classpathentry kind="lib" path="C:/Users/mra12/.gradle/caches/modules-2/files-2.1/com.sun.activation/jakarta.activation/2.0.1/828b80e886a52bb09fe41ff410b10b342f533ce1/jakarta.activation-2.0.1.jar" sourcepath="C:/Users/mra12/.gradle/caches/modules-2/files-2.1/com.sun.activation/jakarta.activation/2.0.1/5204fb651a74c03463d3e587f37c92c3506272e7/jakarta.activation-2.0.1-sources.jar">
 		<attributes>
 			<attribute name="gradle_used_by_scope" value="main,test"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry sourcepath="C:/Users/mra12/.gradle/caches/modules-2/files-2.1/com.sun.xml.bind/jaxb-impl/3.0.1/17ba4be52d3ac844440d63748d8ab747affc75fe/jaxb-impl-3.0.1-sources.jar" kind="lib" path="C:/Users/mra12/.gradle/caches/modules-2/files-2.1/com.sun.xml.bind/jaxb-impl/3.0.1/b2de35b8535302825d945462d2684823dedbf1bb/jaxb-impl-3.0.1.jar">
+	<classpathentry kind="lib" path="C:/Users/mra12/.gradle/caches/modules-2/files-2.1/com.sun.xml.bind/jaxb-impl/3.0.1/b2de35b8535302825d945462d2684823dedbf1bb/jaxb-impl-3.0.1.jar" sourcepath="C:/Users/mra12/.gradle/caches/modules-2/files-2.1/com.sun.xml.bind/jaxb-impl/3.0.1/17ba4be52d3ac844440d63748d8ab747affc75fe/jaxb-impl-3.0.1-sources.jar">
 		<attributes>
 			<attribute name="gradle_used_by_scope" value="main,test"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry sourcepath="C:/Users/mra12/.gradle/caches/modules-2/files-2.1/com.sun.xml.bind/jaxb-core/3.0.1/23d04c98722c96ae93afe1b907f9c8249f95f6c3/jaxb-core-3.0.1-sources.jar" kind="lib" path="C:/Users/mra12/.gradle/caches/modules-2/files-2.1/com.sun.xml.bind/jaxb-core/3.0.1/9fd8003b748dd66776aa72890fe30313a5a34d1d/jaxb-core-3.0.1.jar">
+	<classpathentry kind="lib" path="C:/Users/mra12/.gradle/caches/modules-2/files-2.1/com.sun.xml.bind/jaxb-core/3.0.1/9fd8003b748dd66776aa72890fe30313a5a34d1d/jaxb-core-3.0.1.jar" sourcepath="C:/Users/mra12/.gradle/caches/modules-2/files-2.1/com.sun.xml.bind/jaxb-core/3.0.1/23d04c98722c96ae93afe1b907f9c8249f95f6c3/jaxb-core-3.0.1-sources.jar">
 		<attributes>
 			<attribute name="gradle_used_by_scope" value="main,test"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry sourcepath="C:/Users/mra12/.gradle/caches/modules-2/files-2.1/net.java.jinput/jinput/2.0.9/c9c34c7e950ad200cb3467528dd056116a2e7499/jinput-2.0.9-sources.jar" kind="lib" path="C:/Users/mra12/.gradle/caches/modules-2/files-2.1/net.java.jinput/jinput/2.0.9/5c05470d6ede64e77b1f24a052ea2650aecf4036/jinput-2.0.9.jar">
+	<classpathentry kind="lib" path="C:/Users/mra12/.gradle/caches/modules-2/files-2.1/net.java.jinput/jinput/2.0.9/5c05470d6ede64e77b1f24a052ea2650aecf4036/jinput-2.0.9.jar" sourcepath="C:/Users/mra12/.gradle/caches/modules-2/files-2.1/net.java.jinput/jinput/2.0.9/c9c34c7e950ad200cb3467528dd056116a2e7499/jinput-2.0.9-sources.jar">
 		<attributes>
 			<attribute name="gradle_used_by_scope" value="main,test"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry sourcepath="C:/Users/mra12/.gradle/caches/modules-2/files-2.1/com.googlecode.soundlibs/vorbisspi/1.0.3.3/adc1b6370980cac4118161cba99397e34ddcb860/vorbisspi-1.0.3.3-sources.jar" kind="lib" path="C:/Users/mra12/.gradle/caches/modules-2/files-2.1/com.googlecode.soundlibs/vorbisspi/1.0.3.3/9454df3e9d57bfa5b17292f72c68ac2dbb09de61/vorbisspi-1.0.3.3.jar">
+	<classpathentry kind="lib" path="C:/Users/mra12/.gradle/caches/modules-2/files-2.1/com.googlecode.soundlibs/vorbisspi/1.0.3.3/9454df3e9d57bfa5b17292f72c68ac2dbb09de61/vorbisspi-1.0.3.3.jar" sourcepath="C:/Users/mra12/.gradle/caches/modules-2/files-2.1/com.googlecode.soundlibs/vorbisspi/1.0.3.3/adc1b6370980cac4118161cba99397e34ddcb860/vorbisspi-1.0.3.3-sources.jar">
 		<attributes>
 			<attribute name="gradle_used_by_scope" value="main,test"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry sourcepath="C:/Users/mra12/.gradle/caches/modules-2/files-2.1/com.googlecode.soundlibs/jorbis/0.0.17.4/f187243bec5ddcbeaa371d31d4008a0ef5b4b83c/jorbis-0.0.17.4-sources.jar" kind="lib" path="C:/Users/mra12/.gradle/caches/modules-2/files-2.1/com.googlecode.soundlibs/jorbis/0.0.17.4/19ddf424c59cc8ed548fad5f33037ff82a915aae/jorbis-0.0.17.4.jar">
+	<classpathentry kind="lib" path="C:/Users/mra12/.gradle/caches/modules-2/files-2.1/com.googlecode.soundlibs/jorbis/0.0.17.4/19ddf424c59cc8ed548fad5f33037ff82a915aae/jorbis-0.0.17.4.jar" sourcepath="C:/Users/mra12/.gradle/caches/modules-2/files-2.1/com.googlecode.soundlibs/jorbis/0.0.17.4/f187243bec5ddcbeaa371d31d4008a0ef5b4b83c/jorbis-0.0.17.4-sources.jar">
 		<attributes>
 			<attribute name="gradle_used_by_scope" value="main,test"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry sourcepath="C:/Users/mra12/.gradle/caches/modules-2/files-2.1/com.googlecode.soundlibs/mp3spi/1.9.5.4/62b042ffd0f66a598486440b0328874d436c5a3f/mp3spi-1.9.5.4-sources.jar" kind="lib" path="C:/Users/mra12/.gradle/caches/modules-2/files-2.1/com.googlecode.soundlibs/mp3spi/1.9.5.4/3bdf9ffd65c157daec8735e127c3705513bd384d/mp3spi-1.9.5.4.jar">
+	<classpathentry kind="lib" path="C:/Users/mra12/.gradle/caches/modules-2/files-2.1/com.googlecode.soundlibs/mp3spi/1.9.5.4/3bdf9ffd65c157daec8735e127c3705513bd384d/mp3spi-1.9.5.4.jar" sourcepath="C:/Users/mra12/.gradle/caches/modules-2/files-2.1/com.googlecode.soundlibs/mp3spi/1.9.5.4/62b042ffd0f66a598486440b0328874d436c5a3f/mp3spi-1.9.5.4-sources.jar">
 		<attributes>
 			<attribute name="gradle_used_by_scope" value="main,test"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry sourcepath="C:/Users/mra12/.gradle/caches/modules-2/files-2.1/com.googlecode.soundlibs/tritonus-share/0.3.7.4/f05ddcdbb81f05faec9f90014b67a9e9ded062e8/tritonus-share-0.3.7.4-sources.jar" kind="lib" path="C:/Users/mra12/.gradle/caches/modules-2/files-2.1/com.googlecode.soundlibs/tritonus-share/0.3.7.4/bdddc55194f9cf7b970dd5f3affcbacb88342b0b/tritonus-share-0.3.7.4.jar">
+	<classpathentry kind="lib" path="C:/Users/mra12/.gradle/caches/modules-2/files-2.1/com.googlecode.soundlibs/tritonus-share/0.3.7.4/bdddc55194f9cf7b970dd5f3affcbacb88342b0b/tritonus-share-0.3.7.4.jar" sourcepath="C:/Users/mra12/.gradle/caches/modules-2/files-2.1/com.googlecode.soundlibs/tritonus-share/0.3.7.4/f05ddcdbb81f05faec9f90014b67a9e9ded062e8/tritonus-share-0.3.7.4-sources.jar">
 		<attributes>
 			<attribute name="gradle_used_by_scope" value="main,test"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry sourcepath="C:/Users/mra12/.gradle/caches/modules-2/files-2.1/javax.activation/javax.activation-api/1.2.0/1b4c6e77d35adab19794746d8ea753df30d77dca/javax.activation-api-1.2.0-sources.jar" kind="lib" path="C:/Users/mra12/.gradle/caches/modules-2/files-2.1/javax.activation/javax.activation-api/1.2.0/85262acf3ca9816f9537ca47d5adeabaead7cb16/javax.activation-api-1.2.0.jar">
+	<classpathentry kind="lib" path="C:/Users/mra12/.gradle/caches/modules-2/files-2.1/javax.activation/javax.activation-api/1.2.0/85262acf3ca9816f9537ca47d5adeabaead7cb16/javax.activation-api-1.2.0.jar" sourcepath="C:/Users/mra12/.gradle/caches/modules-2/files-2.1/javax.activation/javax.activation-api/1.2.0/1b4c6e77d35adab19794746d8ea753df30d77dca/javax.activation-api-1.2.0-sources.jar">
 		<attributes>
 			<attribute name="gradle_used_by_scope" value="main,test"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry sourcepath="C:/Users/mra12/.gradle/caches/modules-2/files-2.1/com.googlecode.soundlibs/jlayer/1.0.1.4/48ca80380f95416451fb56540a4492b15f4f4697/jlayer-1.0.1.4-sources.jar" kind="lib" path="C:/Users/mra12/.gradle/caches/modules-2/files-2.1/com.googlecode.soundlibs/jlayer/1.0.1.4/b8df07ad72b482f7d6e6dee7fed669385e8dd92f/jlayer-1.0.1.4.jar">
+	<classpathentry kind="lib" path="C:/Users/mra12/.gradle/caches/modules-2/files-2.1/com.googlecode.soundlibs/jlayer/1.0.1.4/b8df07ad72b482f7d6e6dee7fed669385e8dd92f/jlayer-1.0.1.4.jar" sourcepath="C:/Users/mra12/.gradle/caches/modules-2/files-2.1/com.googlecode.soundlibs/jlayer/1.0.1.4/48ca80380f95416451fb56540a4492b15f4f4697/jlayer-1.0.1.4-sources.jar">
 		<attributes>
 			<attribute name="gradle_used_by_scope" value="main,test"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry sourcepath="C:/Users/mra12/.gradle/caches/modules-2/files-2.1/junit/junit/3.8.2/aaa058540bf14ad600dd784de979c46c721ccbbe/junit-3.8.2-sources.jar" kind="lib" path="C:/Users/mra12/.gradle/caches/modules-2/files-2.1/junit/junit/3.8.2/7e4cde26b53a9a0e3fe5b00d1dbbc7cc1d46060/junit-3.8.2.jar">
+	<classpathentry kind="lib" path="C:/Users/mra12/.gradle/caches/modules-2/files-2.1/junit/junit/3.8.2/7e4cde26b53a9a0e3fe5b00d1dbbc7cc1d46060/junit-3.8.2.jar" sourcepath="C:/Users/mra12/.gradle/caches/modules-2/files-2.1/junit/junit/3.8.2/aaa058540bf14ad600dd784de979c46c721ccbbe/junit-3.8.2-sources.jar">
 		<attributes>
 			<attribute name="gradle_used_by_scope" value="main"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry sourcepath="C:/Users/mra12/.gradle/caches/modules-2/files-2.1/junit/junit/4.12/a6c32b40bf3d76eca54e3c601e5d1470c86fcdfa/junit-4.12-sources.jar" kind="lib" path="C:/Users/mra12/.gradle/caches/modules-2/files-2.1/junit/junit/4.12/2973d150c0dc1fefe998f834810d68f278ea58ec/junit-4.12.jar">
+	<classpathentry kind="lib" path="C:/Users/mra12/.gradle/caches/modules-2/files-2.1/junit/junit/4.12/2973d150c0dc1fefe998f834810d68f278ea58ec/junit-4.12.jar" sourcepath="C:/Users/mra12/.gradle/caches/modules-2/files-2.1/junit/junit/4.12/a6c32b40bf3d76eca54e3c601e5d1470c86fcdfa/junit-4.12-sources.jar">
 		<attributes>
-			<attribute name="gradle_used_by_scope" value="test"/>
 			<attribute name="test" value="true"/>
+			<attribute name="gradle_used_by_scope" value="test"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry sourcepath="C:/Users/mra12/.gradle/caches/modules-2/files-2.1/org.hamcrest/hamcrest-core/1.3/1dc37250fbc78e23a65a67fbbaf71d2e9cbc3c0b/hamcrest-core-1.3-sources.jar" kind="lib" path="C:/Users/mra12/.gradle/caches/modules-2/files-2.1/org.hamcrest/hamcrest-core/1.3/42a25dc3219429f0e5d060061f71acb49bf010a0/hamcrest-core-1.3.jar">
+	<classpathentry kind="lib" path="C:/Users/mra12/.gradle/caches/modules-2/files-2.1/org.hamcrest/hamcrest-core/1.3/42a25dc3219429f0e5d060061f71acb49bf010a0/hamcrest-core-1.3.jar" sourcepath="C:/Users/mra12/.gradle/caches/modules-2/files-2.1/org.hamcrest/hamcrest-core/1.3/1dc37250fbc78e23a65a67fbbaf71d2e9cbc3c0b/hamcrest-core-1.3-sources.jar">
 		<attributes>
-			<attribute name="gradle_used_by_scope" value="test"/>
 			<attribute name="test" value="true"/>
+			<attribute name="gradle_used_by_scope" value="test"/>
 		</attributes>
 	</classpathentry>
+	<classpathentry kind="output" path="bin/default"/>
 </classpath>

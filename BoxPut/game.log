@@ -74,3 +74,240 @@ Caused by: java.io.FileNotFoundException: C:\Users\mra12\git\Senior-Capstone-And
 	at java.desktop/javax.imageio.ImageIO.read(ImageIO.java:1405)
 	... 7 more
 
+Apr 18, 2023 4:08:56 PM de.gurkenlabs.litiengine.DefaultUncaughtExceptionHandler uncaughtException
+SEVERE: Game crashed! :(
+de.gurkenlabs.litiengine.resources.ResourceLoadException: de.gurkenlabs.litiengine.environment.tilemap.xml.TmxException: jakarta.xml.bind.UnmarshalException
+ - with linked exception:
+[java.io.FileNotFoundException: C:\Users\Mapping\Tiles.tsx (The system cannot find the path specified)]
+	at de.gurkenlabs.litiengine.resources.ResourcesContainer.loadResource(ResourcesContainer.java:395)
+	at java.base/java.util.concurrent.ConcurrentHashMap.computeIfAbsent(ConcurrentHashMap.java:1708)
+	at de.gurkenlabs.litiengine.resources.ResourcesContainer.get(ResourcesContainer.java:276)
+	at de.gurkenlabs.litiengine.resources.ResourcesContainer.get(ResourcesContainer.java:281)
+	at de.gurkenlabs.litiengine.resources.ResourcesContainer.get(ResourcesContainer.java:213)
+	at de.gurkenlabs.litiengine.environment.tilemap.xml.Tileset.finish(Tileset.java:313)
+	at de.gurkenlabs.litiengine.environment.tilemap.xml.TmxMap.finish(TmxMap.java:307)
+	at de.gurkenlabs.litiengine.resources.ResourceBundle.load(ResourceBundle.java:103)
+	at de.gurkenlabs.litiengine.resources.Resources.load(Resources.java:173)
+	at de.gurkenlabs.litiengine.resources.Resources.load(Resources.java:160)
+	at p1.Program.main(Program.java:21)
+Caused by: de.gurkenlabs.litiengine.environment.tilemap.xml.TmxException: jakarta.xml.bind.UnmarshalException
+ - with linked exception:
+[java.io.FileNotFoundException: C:\Users\Mapping\Tiles.tsx (The system cannot find the path specified)]
+	at de.gurkenlabs.litiengine.resources.Tilesets.load(Tilesets.java:24)
+	at de.gurkenlabs.litiengine.resources.Tilesets.load(Tilesets.java:13)
+	at de.gurkenlabs.litiengine.resources.ResourcesContainer.loadResource(ResourcesContainer.java:393)
+	... 10 more
+Caused by: jakarta.xml.bind.UnmarshalException
+ - with linked exception:
+[java.io.FileNotFoundException: C:\Users\Mapping\Tiles.tsx (The system cannot find the path specified)]
+	at org.glassfish.jaxb.runtime.v2.runtime.unmarshaller.UnmarshallerImpl.unmarshal0(UnmarshallerImpl.java:221)
+	at org.glassfish.jaxb.runtime.v2.runtime.unmarshaller.UnmarshallerImpl.unmarshal(UnmarshallerImpl.java:189)
+	at jakarta.xml.bind.helpers.AbstractUnmarshallerImpl.unmarshal(AbstractUnmarshallerImpl.java:140)
+	at jakarta.xml.bind.helpers.AbstractUnmarshallerImpl.unmarshal(AbstractUnmarshallerImpl.java:145)
+	at jakarta.xml.bind.helpers.AbstractUnmarshallerImpl.unmarshal(AbstractUnmarshallerImpl.java:154)
+	at de.gurkenlabs.litiengine.util.io.XmlUtilities.read(XmlUtilities.java:98)
+	at de.gurkenlabs.litiengine.resources.Tilesets.load(Tilesets.java:20)
+	... 12 more
+Caused by: java.io.FileNotFoundException: C:\Users\Mapping\Tiles.tsx (The system cannot find the path specified)
+	at java.base/java.io.FileInputStream.open0(Native Method)
+	at java.base/java.io.FileInputStream.open(FileInputStream.java:219)
+	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:158)
+	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:112)
+	at java.base/sun.net.www.protocol.file.FileURLConnection.connect(FileURLConnection.java:86)
+	at java.base/sun.net.www.protocol.file.FileURLConnection.getInputStream(FileURLConnection.java:189)
+	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLEntityManager.setupCurrentEntity(XMLEntityManager.java:653)
+	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLVersionDetector.determineDocVersion(XMLVersionDetector.java:150)
+	at java.xml/com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:861)
+	at java.xml/com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:825)
+	at java.xml/com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(XMLParser.java:141)
+	at java.xml/com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1224)
+	at java.xml/com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser.parse(SAXParserImpl.java:637)
+	at org.glassfish.jaxb.runtime.v2.runtime.unmarshaller.UnmarshallerImpl.unmarshal0(UnmarshallerImpl.java:218)
+	... 18 more
+
+Apr 19, 2023 7:55:19 PM de.gurkenlabs.litiengine.DefaultUncaughtExceptionHandler uncaughtException
+SEVERE: Game crashed! :(
+de.gurkenlabs.litiengine.resources.ResourceLoadException: de.gurkenlabs.litiengine.environment.tilemap.xml.TmxException: jakarta.xml.bind.UnmarshalException
+ - with linked exception:
+[java.io.FileNotFoundException: C:\Users\Mapping\Tiles.tsx (The system cannot find the path specified)]
+	at de.gurkenlabs.litiengine.resources.ResourcesContainer.loadResource(ResourcesContainer.java:395)
+	at java.base/java.util.concurrent.ConcurrentHashMap.computeIfAbsent(ConcurrentHashMap.java:1708)
+	at de.gurkenlabs.litiengine.resources.ResourcesContainer.get(ResourcesContainer.java:276)
+	at de.gurkenlabs.litiengine.resources.ResourcesContainer.get(ResourcesContainer.java:281)
+	at de.gurkenlabs.litiengine.resources.ResourcesContainer.get(ResourcesContainer.java:213)
+	at de.gurkenlabs.litiengine.environment.tilemap.xml.Tileset.finish(Tileset.java:313)
+	at de.gurkenlabs.litiengine.environment.tilemap.xml.TmxMap.finish(TmxMap.java:307)
+	at de.gurkenlabs.litiengine.resources.ResourceBundle.load(ResourceBundle.java:103)
+	at de.gurkenlabs.litiengine.resources.Resources.load(Resources.java:173)
+	at de.gurkenlabs.litiengine.resources.Resources.load(Resources.java:160)
+	at p1.Program.main(Program.java:20)
+Caused by: de.gurkenlabs.litiengine.environment.tilemap.xml.TmxException: jakarta.xml.bind.UnmarshalException
+ - with linked exception:
+[java.io.FileNotFoundException: C:\Users\Mapping\Tiles.tsx (The system cannot find the path specified)]
+	at de.gurkenlabs.litiengine.resources.Tilesets.load(Tilesets.java:24)
+	at de.gurkenlabs.litiengine.resources.Tilesets.load(Tilesets.java:13)
+	at de.gurkenlabs.litiengine.resources.ResourcesContainer.loadResource(ResourcesContainer.java:393)
+	... 10 more
+Caused by: jakarta.xml.bind.UnmarshalException
+ - with linked exception:
+[java.io.FileNotFoundException: C:\Users\Mapping\Tiles.tsx (The system cannot find the path specified)]
+	at org.glassfish.jaxb.runtime.v2.runtime.unmarshaller.UnmarshallerImpl.unmarshal0(UnmarshallerImpl.java:221)
+	at org.glassfish.jaxb.runtime.v2.runtime.unmarshaller.UnmarshallerImpl.unmarshal(UnmarshallerImpl.java:189)
+	at jakarta.xml.bind.helpers.AbstractUnmarshallerImpl.unmarshal(AbstractUnmarshallerImpl.java:140)
+	at jakarta.xml.bind.helpers.AbstractUnmarshallerImpl.unmarshal(AbstractUnmarshallerImpl.java:145)
+	at jakarta.xml.bind.helpers.AbstractUnmarshallerImpl.unmarshal(AbstractUnmarshallerImpl.java:154)
+	at de.gurkenlabs.litiengine.util.io.XmlUtilities.read(XmlUtilities.java:98)
+	at de.gurkenlabs.litiengine.resources.Tilesets.load(Tilesets.java:20)
+	... 12 more
+Caused by: java.io.FileNotFoundException: C:\Users\Mapping\Tiles.tsx (The system cannot find the path specified)
+	at java.base/java.io.FileInputStream.open0(Native Method)
+	at java.base/java.io.FileInputStream.open(FileInputStream.java:219)
+	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:158)
+	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:112)
+	at java.base/sun.net.www.protocol.file.FileURLConnection.connect(FileURLConnection.java:86)
+	at java.base/sun.net.www.protocol.file.FileURLConnection.getInputStream(FileURLConnection.java:189)
+	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLEntityManager.setupCurrentEntity(XMLEntityManager.java:653)
+	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLVersionDetector.determineDocVersion(XMLVersionDetector.java:150)
+	at java.xml/com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:861)
+	at java.xml/com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:825)
+	at java.xml/com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(XMLParser.java:141)
+	at java.xml/com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1224)
+	at java.xml/com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser.parse(SAXParserImpl.java:637)
+	at org.glassfish.jaxb.runtime.v2.runtime.unmarshaller.UnmarshallerImpl.unmarshal0(UnmarshallerImpl.java:218)
+	... 18 more
+
+Apr 19, 2023 7:55:57 PM de.gurkenlabs.litiengine.DefaultUncaughtExceptionHandler uncaughtException
+SEVERE: Game crashed! :(
+de.gurkenlabs.litiengine.resources.ResourceLoadException: de.gurkenlabs.litiengine.environment.tilemap.xml.TmxException: jakarta.xml.bind.UnmarshalException
+ - with linked exception:
+[java.io.FileNotFoundException: C:\Users\Mapping\Tiles.tsx (The system cannot find the path specified)]
+	at de.gurkenlabs.litiengine.resources.ResourcesContainer.loadResource(ResourcesContainer.java:395)
+	at java.base/java.util.concurrent.ConcurrentHashMap.computeIfAbsent(ConcurrentHashMap.java:1708)
+	at de.gurkenlabs.litiengine.resources.ResourcesContainer.get(ResourcesContainer.java:276)
+	at de.gurkenlabs.litiengine.resources.ResourcesContainer.get(ResourcesContainer.java:281)
+	at de.gurkenlabs.litiengine.resources.ResourcesContainer.get(ResourcesContainer.java:213)
+	at de.gurkenlabs.litiengine.environment.tilemap.xml.Tileset.finish(Tileset.java:313)
+	at de.gurkenlabs.litiengine.environment.tilemap.xml.TmxMap.finish(TmxMap.java:307)
+	at de.gurkenlabs.litiengine.resources.ResourceBundle.load(ResourceBundle.java:103)
+	at de.gurkenlabs.litiengine.resources.Resources.load(Resources.java:173)
+	at de.gurkenlabs.litiengine.resources.Resources.load(Resources.java:160)
+	at p1.Program.main(Program.java:20)
+Caused by: de.gurkenlabs.litiengine.environment.tilemap.xml.TmxException: jakarta.xml.bind.UnmarshalException
+ - with linked exception:
+[java.io.FileNotFoundException: C:\Users\Mapping\Tiles.tsx (The system cannot find the path specified)]
+	at de.gurkenlabs.litiengine.resources.Tilesets.load(Tilesets.java:24)
+	at de.gurkenlabs.litiengine.resources.Tilesets.load(Tilesets.java:13)
+	at de.gurkenlabs.litiengine.resources.ResourcesContainer.loadResource(ResourcesContainer.java:393)
+	... 10 more
+Caused by: jakarta.xml.bind.UnmarshalException
+ - with linked exception:
+[java.io.FileNotFoundException: C:\Users\Mapping\Tiles.tsx (The system cannot find the path specified)]
+	at org.glassfish.jaxb.runtime.v2.runtime.unmarshaller.UnmarshallerImpl.unmarshal0(UnmarshallerImpl.java:221)
+	at org.glassfish.jaxb.runtime.v2.runtime.unmarshaller.UnmarshallerImpl.unmarshal(UnmarshallerImpl.java:189)
+	at jakarta.xml.bind.helpers.AbstractUnmarshallerImpl.unmarshal(AbstractUnmarshallerImpl.java:140)
+	at jakarta.xml.bind.helpers.AbstractUnmarshallerImpl.unmarshal(AbstractUnmarshallerImpl.java:145)
+	at jakarta.xml.bind.helpers.AbstractUnmarshallerImpl.unmarshal(AbstractUnmarshallerImpl.java:154)
+	at de.gurkenlabs.litiengine.util.io.XmlUtilities.read(XmlUtilities.java:98)
+	at de.gurkenlabs.litiengine.resources.Tilesets.load(Tilesets.java:20)
+	... 12 more
+Caused by: java.io.FileNotFoundException: C:\Users\Mapping\Tiles.tsx (The system cannot find the path specified)
+	at java.base/java.io.FileInputStream.open0(Native Method)
+	at java.base/java.io.FileInputStream.open(FileInputStream.java:219)
+	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:158)
+	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:112)
+	at java.base/sun.net.www.protocol.file.FileURLConnection.connect(FileURLConnection.java:86)
+	at java.base/sun.net.www.protocol.file.FileURLConnection.getInputStream(FileURLConnection.java:189)
+	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLEntityManager.setupCurrentEntity(XMLEntityManager.java:653)
+	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLVersionDetector.determineDocVersion(XMLVersionDetector.java:150)
+	at java.xml/com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:861)
+	at java.xml/com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:825)
+	at java.xml/com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(XMLParser.java:141)
+	at java.xml/com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1224)
+	at java.xml/com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser.parse(SAXParserImpl.java:637)
+	at org.glassfish.jaxb.runtime.v2.runtime.unmarshaller.UnmarshallerImpl.unmarshal0(UnmarshallerImpl.java:218)
+	... 18 more
+
+May 06, 2023 9:32:52 PM de.gurkenlabs.litiengine.DefaultUncaughtExceptionHandler uncaughtException
+SEVERE: Game crashed! :(
+de.gurkenlabs.litiengine.resources.ResourceLoadException: javax.imageio.IIOException: Can't get input stream from URL!
+	at de.gurkenlabs.litiengine.resources.ResourcesContainer.loadResource(ResourcesContainer.java:395)
+	at java.base/java.util.concurrent.ConcurrentHashMap.computeIfAbsent(ConcurrentHashMap.java:1708)
+	at de.gurkenlabs.litiengine.resources.ResourcesContainer.get(ResourcesContainer.java:276)
+	at de.gurkenlabs.litiengine.resources.ResourcesContainer.get(ResourcesContainer.java:209)
+	at p1.Program.main(Program.java:20)
+Caused by: javax.imageio.IIOException: Can't get input stream from URL!
+	at java.desktop/javax.imageio.ImageIO.read(ImageIO.java:1407)
+	at de.gurkenlabs.litiengine.resources.Images.load(Images.java:48)
+	at de.gurkenlabs.litiengine.resources.Images.load(Images.java:12)
+	at de.gurkenlabs.litiengine.resources.ResourcesContainer.loadResource(ResourcesContainer.java:393)
+	... 4 more
+Caused by: java.io.FileNotFoundException: C:\Users\mra12\git\Senior-Capstone-Anderson\BoxPut\box.png (The system cannot find the file specified)
+	at java.base/java.io.FileInputStream.open0(Native Method)
+	at java.base/java.io.FileInputStream.open(FileInputStream.java:219)
+	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:158)
+	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:112)
+	at java.base/sun.net.www.protocol.file.FileURLConnection.connect(FileURLConnection.java:86)
+	at java.base/sun.net.www.protocol.file.FileURLConnection.getInputStream(FileURLConnection.java:189)
+	at java.base/java.net.URL.openStream(URL.java:1162)
+	at java.desktop/javax.imageio.ImageIO.read(ImageIO.java:1405)
+	... 7 more
+
+May 06, 2023 9:36:21 PM de.gurkenlabs.litiengine.DefaultUncaughtExceptionHandler uncaughtException
+SEVERE: Game crashed! :(
+de.gurkenlabs.litiengine.resources.ResourceLoadException: javax.imageio.IIOException: Can't get input stream from URL!
+	at de.gurkenlabs.litiengine.resources.ResourcesContainer.loadResource(ResourcesContainer.java:395)
+	at java.base/java.util.concurrent.ConcurrentHashMap.computeIfAbsent(ConcurrentHashMap.java:1708)
+	at de.gurkenlabs.litiengine.resources.ResourcesContainer.get(ResourcesContainer.java:276)
+	at de.gurkenlabs.litiengine.resources.ResourcesContainer.get(ResourcesContainer.java:209)
+	at p1.Program.main(Program.java:20)
+Caused by: javax.imageio.IIOException: Can't get input stream from URL!
+	at java.desktop/javax.imageio.ImageIO.read(ImageIO.java:1407)
+	at de.gurkenlabs.litiengine.resources.Images.load(Images.java:48)
+	at de.gurkenlabs.litiengine.resources.Images.load(Images.java:12)
+	at de.gurkenlabs.litiengine.resources.ResourcesContainer.loadResource(ResourcesContainer.java:393)
+	... 4 more
+Caused by: java.io.FileNotFoundException: C:\Users\mra12\git\Senior-Capstone-Anderson\BoxPut\Box.png (The system cannot find the file specified)
+	at java.base/java.io.FileInputStream.open0(Native Method)
+	at java.base/java.io.FileInputStream.open(FileInputStream.java:219)
+	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:158)
+	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:112)
+	at java.base/sun.net.www.protocol.file.FileURLConnection.connect(FileURLConnection.java:86)
+	at java.base/sun.net.www.protocol.file.FileURLConnection.getInputStream(FileURLConnection.java:189)
+	at java.base/java.net.URL.openStream(URL.java:1162)
+	at java.desktop/javax.imageio.ImageIO.read(ImageIO.java:1405)
+	... 7 more
+
+May 06, 2023 9:44:43 PM de.gurkenlabs.litiengine.DefaultUncaughtExceptionHandler uncaughtException
+SEVERE: Game crashed! :(
+de.gurkenlabs.litiengine.resources.ResourceLoadException: javax.imageio.IIOException: Can't get input stream from URL!
+	at de.gurkenlabs.litiengine.resources.ResourcesContainer.loadResource(ResourcesContainer.java:395)
+	at java.base/java.util.concurrent.ConcurrentHashMap.computeIfAbsent(ConcurrentHashMap.java:1708)
+	at de.gurkenlabs.litiengine.resources.ResourcesContainer.get(ResourcesContainer.java:276)
+	at de.gurkenlabs.litiengine.resources.ResourcesContainer.get(ResourcesContainer.java:209)
+	at p1.Program.main(Program.java:25)
+Caused by: javax.imageio.IIOException: Can't get input stream from URL!
+	at java.desktop/javax.imageio.ImageIO.read(ImageIO.java:1407)
+	at de.gurkenlabs.litiengine.resources.Images.load(Images.java:48)
+	at de.gurkenlabs.litiengine.resources.Images.load(Images.java:12)
+	at de.gurkenlabs.litiengine.resources.ResourcesContainer.loadResource(ResourcesContainer.java:393)
+	... 4 more
+Caused by: java.io.FileNotFoundException: C:\Users\mra12\git\Senior-Capstone-Anderson\BoxPut\Box.png (The system cannot find the file specified)
+	at java.base/java.io.FileInputStream.open0(Native Method)
+	at java.base/java.io.FileInputStream.open(FileInputStream.java:219)
+	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:158)
+	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:112)
+	at java.base/sun.net.www.protocol.file.FileURLConnection.connect(FileURLConnection.java:86)
+	at java.base/sun.net.www.protocol.file.FileURLConnection.getInputStream(FileURLConnection.java:189)
+	at java.base/java.net.URL.openStream(URL.java:1162)
+	at java.desktop/javax.imageio.ImageIO.read(ImageIO.java:1405)
+	... 7 more
+
+May 09, 2023 12:56:47 AM de.gurkenlabs.litiengine.gui.screens.ScreenManager display
+WARNING: Could not display the screen screenName because there is no screen with the specified name.
+May 09, 2023 3:11:19 PM de.gurkenlabs.litiengine.DefaultUncaughtExceptionHandler uncaughtException
+SEVERE: Game crashed! :(
+java.lang.NullPointerException: Cannot invoke "java.awt.geom.Point2D.getX()" because "viewPortLocation" is null
+	at de.gurkenlabs.litiengine.graphics.Camera.getMapLocation(Camera.java:68)
+	at p1.BoxLogic.init(BoxLogic.java:20)
+	at p1.Program.main(Program.java:30)
+
