@@ -12,11 +12,11 @@ public class IngameScreen extends GameScreen {
 		super(NAME);
 		update();
 	}
-	
-	public void update() { 
-	  if (this.lastPlayed == 0) { 
-	    Game.audio().playMusic("audio/a-small-miracle.mp3"); 
-	    this.lastPlayed = Game.loop().getTicks(); 
-	  }
+
+	public void update() {
+		if (this.lastPlayed == 0) {
+			Game.audio().playMusic("audio/a-small-miracle.mp3"); // because that is what it feels like
+			this.lastPlayed = Game.loop().getTicks();
+		}
 	}
 }
